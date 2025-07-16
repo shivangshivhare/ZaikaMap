@@ -240,7 +240,7 @@ export default function FindRest() {
             <header className="border-gray-800">
                 <div className="container mx-auto px-4 py-6">
                     <Link href="/">
-                        <h1 className="text-4xl font-bold text-orange-400">Zoto</h1>
+                        <h1 className="text-4xl font-bold text-orange-400">Zayka Map</h1>
                     </Link>
                 </div>
             </header>

@@ -37,7 +37,7 @@ export default function Header() {
                         </button>
                        
                         <a 
-                            href="https://github.com/dodaa08/zoto-codecircuit" 
+                            href="https://github.com/shivangshivhare/ZaikaMap" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="flex items-center space-x-2 text-gray-300 border border-gray-300 rounded-md px-2 py-1 hover:text-orange-500 transition-colors"

@@ -81,7 +81,7 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
         }
 
-        const apiKey = process.env.GOOGLE_AI_API_KEY;
+        const apiKey = process.env.GEMINI_API_KEY;
         if (!apiKey) {
             console.error('API: Google AI API key not configured');
             return NextResponse.json({ error: 'API key not configured' }, { status: 500 });

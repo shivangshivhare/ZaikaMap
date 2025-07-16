@@ -91,7 +91,7 @@ export default function Footer() {
                         <ul className="space-y-2">
                             <li className="text-gray-400">
                                 <a href="mailto:hello@zoto.com" className="hover:text-orange-500 transition-colors">
-                                    hello@zoto.com
+                                    ZaykaMap@gmail.com
                                 </a>
                             </li>
                             <li className="text-gray-400">
@@ -106,7 +106,7 @@ export default function Footer() {
                 {/* Copyright */}
                 <div className="border-t border-gray-800 mt-12 pt-8 text-center">
                     <p className="text-gray-400">
-                        © {currentYear} Zoto. All rights reserved.
+                        © {currentYear} ZaykaMap. All rights reserved.
                     </p>
                 </div>
             </div>

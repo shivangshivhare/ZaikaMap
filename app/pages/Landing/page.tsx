@@ -9,7 +9,6 @@ import Features from '../../components/features/page';
 import HowItWorks from '../../components/howitworks/page';
 import Testimonials from '../../components/testimonials/page';
 import Footer from '../../components/footer/page';
-import Demo from '@/app/components/demo/page';
 export default function LandingPage() {
     return (
         // <div className="min-h-screen bg-black text-white">
@@ -26,7 +25,6 @@ export default function LandingPage() {
                 <Features/>
             </div>
             <div className='container mx-auto px-6 py-4 mt-20'>
-                <Demo/>
             </div>
             <div className='container mx-auto px-6 py-4 mt-20'>
                 <HowItWorks/>
