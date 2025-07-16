@@ -1,42 +1,46 @@
-# 🍽️ Zoto
+# 🍽️ ZaikaMap
 
-**Zoto** is a smart and simple restaurant recommender that helps you find the best places to eat near you — whether you’re craving biryani, burgers, or bubble tea.
+**ZaikaMap** is a smart and simple restaurant recommender built to help users discover the best places to eat near them — whether you're craving biryani, burgers, or bubble tea. Designed with a clean interface and powerful backend, it is tailored for food discovery across diverse Indian tastes.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 📍 Location-based restaurant suggestions  
-- 🔍 Smart recommendations based on cuisine, ratings, and distance  
-- 💬 Clean, user-friendly interface  
-- ❤️ Save your favorite spots *(coming soon!)*  
+- 📍 **Real-time location-based suggestions**
+- 🔍 Discover restaurants by cuisine, distance, and rating
+- 🌐 Integrated with **Google Maps & Gemini API**
+- ❤️ Save favorite spots *(feature coming soon)*
+- 📱 Fully responsive for mobile and desktop
 
 ---
 
 ## 🧠 How It Works
 
-Zoto uses your current location to fetch and display nearby restaurants. With a clean interface and real-time suggestions, it takes the guesswork out of “Where should we eat?”
+ZaikaMap uses geolocation to fetch and filter restaurant options around the user. It intelligently integrates curated data, fast performance, and real-time filtering to deliver seamless food recommendations, especially for users in Indian cities.
 
 ---
 
-![image](https://github.com/user-attachments/assets/2272f170-69e6-4cba-90bd-cd4cd8f39cb8)
-
-
-
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js  
-- **Backend**: Next.js API routes  
-- **API**: Google Gemini + Google Maps scraping  
-- **Styling**: Tailwind CSS  
+- **Frontend**: Next.js (React Framework)
+- **Styling**: Tailwind CSS
+- **APIs**: Google Maps, Google Gemini
+- **Deployment**: Vercel
+- **Environment**: Node.js, JavaScript, TypeScript
 
 ---
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/zoto.git
-cd zoto
+# Clone the repo
+git clone https://github.com/shivangshivhare/ZaikaMap.git
+
+# Navigate into project directory
+cd ZaikaMap
+
+# Install dependencies
 npm install
+
+# Start the local development server
 npm run dev
-env.local : add your Gemini API key
